@@ -1,0 +1,4 @@
+title = "hue-connector gitleaks allowlist"
+[allowlist]
+description = "No secrets should ever be in this repo; this file only pins the scan config."
+paths = ['''\.github/''']

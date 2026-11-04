@@ -1,0 +1,4 @@
+dist/
+hue-connector*
+*.tar.gz
+.DS_Store
