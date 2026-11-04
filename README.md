@@ -1,8 +1,7 @@
 # hue-connector
 
-Pairs your Mac or Linux machine with a Hue server and runs the
-operations the agent asks for on it (shell, files, HTTP). The
-dashboard shows what the agent did on your machine — last 7 days.
+Pairs your Mac or Linux machine with a server and runs the
+operations it asks for on that machine (shell, files, HTTP).
 
 ## Install
 
@@ -15,9 +14,9 @@ Verifies the release checksum, installs to `~/.local/bin` (no sudo).
 ## Use
 
 ```sh
-hue-connector pair <server-url> <code>   # code from the dashboard
-hue-connector run                        # stay connected
-hue-connector status                     # show pairing
+hue-connector pair <server-url> <code>
+hue-connector run
+hue-connector status
 ```
 
 ## Autostart
